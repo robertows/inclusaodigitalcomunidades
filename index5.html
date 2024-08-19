@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        /* Estilo para alinhar os rótulos à esquerda */
+        label {
+            text-align: left;
+            display: block;
+        }
+    </style>
+    <title>Feedback da Comunidade</title>
+</head>
+<body>
+    <header>
+        <h1>Inclusão Digital em Comunidades Carentes</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="index1.html">Sobre o Projeto</a></li>
+                <li><a href="index2.html">Objetivos</a></li>
+                <li><a href="index3.html">Acesso Restrito a Membros/Cadastro</a></li>
+                <li><a href="index4.html">Contato</a></li>
+                <li><a href="index5.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="feedback">
+        <h2>Feedback</h2>
+            <fieldset>
+                <legend>Avalie os Conteúdos e Treinamentos:</legend>
+                
+                <label for="avaliacao-conteudo">Avaliação dos Conteúdos:</label>
+                <select id="avaliacao-conteudo" name="avaliacao-conteudo" required>
+                    <option value="1">1 - Muito Insatisfeito</option>
+                    <option value="2">2 - Insatisfeito</option>
+                    <option value="3">3 - Neutro</option>
+                    <option value="4">4 - Satisfeito</option>
+                    <option value="5">5 - Muito Satisfeito</option>
+                </select>
+                
+                <label for="avaliacao-treinamentos">Avaliação dos Treinamentos:</label>
+                <select id="avaliacao-treinamentos" name="avaliacao-treinamentos" required>
+                    <option value="1">1 - Muito Insatisfeito</option>
+                    <option value="2">2 - Insatisfeito</option>
+                    <option value="3">3 - Neutro</option>
+                    <option value="4">4 - Satisfeito</option>
+                    <option value="5">5 - Muito Satisfeito</option>
+                </select>
+                
+                <label for="sugestoes">Sugestões de Melhoria:</label>
+                <textarea id="sugestoes" name="sugestoes" rows="4" placeholder="Compartilhe suas sugestões para melhorar nossos conteúdos e treinamentos"></textarea>
+            </fieldset>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <!-- Espaço reservado para a imagem -->
+        <img src="feedback1.jpg" alt="Descrição da Imagem" style="width: 40%; height: auto;">
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
