@@ -1,9 +1,10 @@
-html lang="pt-BR">
+!DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
-    <title>Objetivos</title>
+    <title>Acesso Restrito a Membros/Cadastro</title>
 </head>
 <body>
     <header>
@@ -12,23 +13,29 @@ html lang="pt-BR">
             <ul>
                 <li><a href="index.html">Início</a></li>
                 <li><a href="index1.html">Sobre o Projeto</a></li>
-                <li><a href="index2.html">Setor de Aplicacão</a></li>
-                <li><a href="index3.html">Objetivos</a></li>
+                <li><a href="index2.html">Objetivos</a></li>
+                <li><a href="index3.html">Acesso Restrito a Membros/Cadastro</a></li>
                 <li><a href="index4.html">Contato</a></li>
+                <li><a href="index5.html">Feedback</a></li>
             </ul>
         </nav>
     </header>
     
-    <section id="Objetivos">
-        <h2>Objetivos</h2>
-        <p><strong>Diagnóstico das Necessidades Tecnológicas:</strong>Realizar um levantamento detalhado para entender as principais lacunas no acesso e nas habilidades digitais da comunidade.</p>
-        <p><strong>Desenvolvimento de Plataforma:</strong>Criar uma plataforma digital adaptada às necessidades específicas da comunidade, oferecendo acesso a recursos educacionais e ferramentas tecnológicas.</p>
-        <p><strong>Capacitação e Treinamento:</strong>Implementar programas de treinamento prático para aumentar a proficiência digital dos moradores, capacitando-os para o uso eficiente da tecnologia e promovendo a inclusão digital.</p>
-         <!-- Espaço reservado para a imagem -->
-         <img src="imagem4.jpg" alt="Descrição da Imagem" style="width: 60%; height: auto;">
-
+    <section id="login">
+        <h2>Acesso Restrito a Membros/Cadastro</h2>
+        <p>Por favor, faça o login para acessar as áreas restritas e ter acesso aos conteúdos</p>
+        <form action="membros.html" method="post">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="submit" value="Login">
+        </form>
+        <p>Ainda não é membro? <a href="cadastro.html">Cadastre-se aqui</a>.</p>
+        <!-- Espaço reservado para a imagem -->
+        <img src="imagem3.jpg" alt="Descrição da Imagem" style="width: 40%; height: auto;">
     </section>
-    
+
     <script src="script.js"></script>
 </body>
 </html>
